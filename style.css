@@ -8,7 +8,7 @@
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 07), rgba(4, 9, 30, 0.7)),
-    url(src/images/banner.png);
+    url(banner.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -275,7 +275,7 @@ nav img {
   margin: 100px auto;
   width: 80%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(src/images/banner2.jpg);
+    url(banner2.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
