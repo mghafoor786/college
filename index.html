@@ -13,8 +13,9 @@
   <body>
     <section class="header">
       <nav>
-        <a href="index.html"><img src="logo.png" alt="" /></a>
-        <div class="nav-links">
+        <a href="index.html"><img src="src/images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navlinks">
+          <i id="fc" class="ri-close-line" onclick="hideMenu()"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
@@ -22,7 +23,9 @@
             <li><a href="blog.html">BLOG</a></li>
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
+          
         </div>
+        <i id="fc" class="ri-menu-line" onclick="showMenu()"></i>
       </nav>
 
       <div class="text-box">
@@ -214,5 +217,18 @@
       </div>
       <p>Made <i class="ri-heart-line"></i> by Ghafoor</p>
     </section>
+
+     <!-- ---javascript toggle--- -->
+
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showMenu(){
+        navlinks.style.right="0";
+      }
+
+      function hideMenu(){
+        navlinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>
