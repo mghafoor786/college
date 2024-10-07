@@ -391,7 +391,7 @@ nav #fa{
   .nav-links{
     position: absolute;
     background: #f44336;
-    height: 100vh;
+    height: 40vh;
     width: 200px;
     top: 0;
     right: -200px;
@@ -413,7 +413,7 @@ nav #fa{
   }
 
   .header {
-    min-height: 100vh;
+    min-height: 40vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 07), rgba(4, 9, 30, 0.7)),
       url(src/images/banner.png);
